@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+	font-family: "microsoft yahei", "微软雅黑", "宋体", "PingHei", "Helvetica Neue", "Tahoma", "Arial";
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, input, textarea, a, p {
+	padding: 0;
+	margin: 0;
+}
+img, input {
+	border: 0 none;
+}
+input[type="button"] {
+	cursor: pointer;
+}
+table {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+ul, ol, li {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*div{word-break:break-all;word-wrap:break-word;}*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}

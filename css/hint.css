@@ -1,0 +1,26 @@
+.cen{
+	padding-right: 25px;
+	min-width: 980px;
+}
+.title{
+	overflow: hidden;
+}
+.bread{
+	background: url(../img/ico-bread.png) no-repeat;
+	text-indent: 20px;
+	font-size: 14px;
+	color: #333;
+	line-height: 16px;
+	float: left;
+	margin-top: 16px;
+}
+.hint{
+	height: 418px;
+	background: #f9f9f9;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.hint img{
+	margin-top: 135px;
+}

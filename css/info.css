@@ -1,0 +1,229 @@
+.cen{
+	padding-right: 25px;
+	min-width: 970px;
+}
+.title{
+	overflow: hidden;
+}
+.bread{
+	background: url(../img/ico-bread.png) no-repeat;
+	text-indent: 20px;
+	font-size: 14px;
+	color: #333;
+	line-height: 16px;
+	float: left;
+	margin-top: 16px;
+}
+.refer{
+	background: url(../img/refer.png) no-repeat;
+	width: 110px;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 16px;
+	font-size: 14px;
+	color: #666;
+	float: right;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.refer.se{
+	background: url(../img/refer-se.png) no-repeat;
+	color: #73b4fa;
+}
+.see{
+	height: 140px;
+	background: #f9f9f9;
+	border-radius: 3px;
+	margin-top: 8px;
+	min-width: 960px;
+}
+.see-box{
+	float: left;
+	width: 710px;
+}
+.see .see-div{
+	float: left;
+	margin-top: 26px;
+}
+.see-div span{
+	float: left;
+	width: 80px;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+	text-indent: 20px;
+	margin-left: 20px;
+	background: url(../img/dian.png) no-repeat left center;
+	font-size: 14px;
+	color: #666;
+	padding-right: 5px;
+	overflow: hidden;
+}
+.see-div input{
+	float: left;
+	width: 198px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #e4e4e4;
+	outline: none;
+	font-family: "微软雅黑";
+	text-indent: 10px;
+}
+.see-div input.inp2{
+	width: 158px;
+}
+.seek-s{
+	width: 38px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #e4e4e4;
+	border-left: none;
+	float: left;
+	background: url(../img/seek-s.png) center center no-repeat;
+	cursor: pointer;
+}
+.delete{
+	float: left;
+	width: 38px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #e4e4e4;
+	background: url(../img/delete.png) center center no-repeat;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.but{
+	float:right;
+	margin: 60px 60px 0 0;
+}
+.but span{
+	width: 80px;
+	height: 34px;
+	line-height: 30px;
+	overflow: hidden;
+	background: url(../img/but.png) no-repeat;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.biao{
+	position: relative;
+	overflow: hidden;
+	background: #000000;
+	margin-top: 15px;
+}
+.jiao{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	
+}
+.jiao-lt{
+	background: url(../img/c-jiao.png) 0 0 no-repeat;
+	left: 0;
+	top: 0;
+}
+.jiao-rt{
+	background: url(../img/c-jiao.png) -13px 0 no-repeat;
+	right: 0;
+	top: 0;
+}
+.jiao-lb{
+	background: url(../img/c-jiao.png) 0 -13px no-repeat;
+	left: 0;
+	bottom: 0;
+}
+.jiao-rb{
+	background: url(../img/c-jiao.png) -13px -13px no-repeat;
+	right: 0;
+	bottom: 0;
+}
+.table{
+	background:#d0d0d0;
+}
+.table th{
+	text-align: center;
+	background: #f9f9f9;
+	height: 58px;
+	font-size: 14px;
+	color: #666;
+	font-weight: 100;
+}
+.table td{
+	text-align: center;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	padding: 10px 5px;
+	word-break: break-all;
+}
+.page{
+	margin: 10px 0 10px 40px;
+	overflow: hidden;
+}
+.page ul{
+	float: left;
+}
+.page li{
+	border: 1px solid #e4e4e4;
+	padding: 0px 10px;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	cursor: pointer;
+	margin-right: 3px;
+}
+.page li.se{
+	background: #73b4fa;
+	border-color: #73b4fa;
+}
+.page li.se a{
+	color: #fff;
+}
+.page li a{
+	color: #333333;
+	font-size: 14px;
+}
+
+.page li span{
+	display: block;	
+	width: 12px;
+	height: 24px;
+	cursor: pointer;
+}
+.page li span.prev{
+	background: url(../img/prev.png) center center no-repeat;
+}
+.page li span.next{
+	background: url(../img/next.png) center center no-repeat;
+}
+.page .sure{
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 80px;
+}
+.page .sure input{
+	width: 28px;
+	height: 24px;
+	border: 1px solid #e4e4e4;
+	outline: none;
+	line-height: 24px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.page .sure span{
+	width: 44px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #e4e4e4;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+}

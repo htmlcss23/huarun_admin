@@ -1,0 +1,41 @@
+.main{
+	width: 1008px;
+	height: 542px;
+	overflow: hidden;
+	background: url(../img/load-bg.png) no-repeat;
+	margin: 110px auto 0;
+	position: relative;
+	text-align: center;
+}
+.close{
+	width: 134px;
+	height: 117px;
+	background: url(../img/load-close.png) no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 22px;
+	color: #fff;
+	line-height: 60px;
+	text-indent: 65px;
+	cursor: pointer;
+}
+.main p{
+	font-size: 22px;
+	color: #666666;
+	line-height: 40px;
+}
+.main img{
+	padding:20px 0;
+}
+.main .but{
+	width: 203px;
+	height: 62px;
+	line-height: 62px;
+	background: url(../img/load-but.png) no-repeat;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	cursor: pointer;
+}

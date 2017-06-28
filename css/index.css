@@ -1,0 +1,236 @@
+iframe{ height:100%; width:100%; overflow:auto; position:absolute; top:0; left:0;}
+.hide{
+	display: none;
+}
+.header{
+	height: 66px;
+	background: #f9f9f9;
+	min-width: 900px;
+}
+.head-le{
+	width: 235px;
+	height: 100%;
+	background: #73b4fa;
+	float: left;
+}
+.head-le div{
+	margin:25px 0 0 46px;
+	float: left;
+}
+.head-le span{
+	float: left;
+	background: url(../img/ico-tit.png) no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.head-le label{
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	line-height: 16px;
+	margin-left: 23px;
+}
+
+.head-ri{
+	/*min-width: 600px;
+	height: 66px;*/
+}
+.seek{
+	float: left;
+	width: 253px;
+	height: 39px;
+	line-height: 39px;
+	background: url(../img/seek-bg.png) no-repeat;
+	margin: 16px 0 0 22px;
+	overflow: hidden;
+}
+.seek span{
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: url(../img/seek.png) no-repeat;
+	cursor: pointer;
+	margin: 11px 0 0 13px;
+}
+.seek input{
+	padding-left: 10px;
+	height: 38px;
+	line-height: 38px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 192px;
+	outline: none;
+}
+.person{
+	float: right;
+	height: 66px;
+}
+.per-name{
+	font-size: 14px;
+	color: #999999;
+	float: left;
+	margin-top: 25px;
+}
+.per-img{
+	float: left;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 11px 0 0 21px;
+}
+.per-img img{
+	width: 100%;
+	height: 100%;
+}
+.per-line{
+	float: left;
+	width: 1px;
+	height: 40px;
+	background: #e4e4e4;
+	margin: 14px 25px 0;
+}
+.per-close{
+	float: left;
+	width: 34px;
+	height: 34px;
+	background: url(../img/per-close.png) no-repeat;
+	cursor: pointer;
+	margin: 16px 25px 0 0;
+}
+
+.box{	
+	width: 262px;
+	position: absolute;
+	top: 66px;
+	bottom: 0;
+	overflow: hidden;
+}
+.menu-ul{
+	padding-top: 10px;
+}
+.menu{
+	width: 233px;
+	border: 1px solid #e5e5e5;
+	background: #f9f9f9;
+	height: 100%;
+	float: left;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.menu .list{
+	height: auto;
+	margin-top: 10px;
+}
+.menu .list.active{
+	background: #e9edf2;
+}
+.menu .list.active .menu2{
+	display: block;
+}
+.menu .list h3{
+	height: 46px;
+	cursor: pointer;
+	border-left: 2px solid #f9f9f9;
+}
+.menu .list.active h3{
+	border-left: 2px solid #73b4fa;
+}
+.menu h3 span{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 16px 22px 0 45px;
+}
+.menu h3 span.sp1{
+	background: url(../img/icons.png) 0 0 no-repeat;
+}
+.menu h3 span.sp2{
+	background: url(../img/icons.png) 0 -20px no-repeat;
+}
+.menu h3 span.sp3{
+	background: url(../img/icons.png) 0 -40px no-repeat;
+}
+.menu h3 span.sp4{
+	background: url(../img/icons.png) 0 -60px no-repeat;
+}
+.menu h3 label{
+	font-size: 14px;
+	color: #333333;
+	margin-top: 14px;
+	float: left;
+	width: 118px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.menu h3 i{
+	float: left;
+	width: 7px;
+	height: 14px;
+	background: url(../img/ico-arrow.png) no-repeat;
+	margin-top: 16px;
+	cursor: pointer;
+}
+.menu2{
+	overflow: hidden;
+	display: none;
+}
+.menu2 li{
+	height: 40px;
+	line-height: 40px;
+}
+.menu2 li.se{
+	background: #d1dce9;
+}
+.menu2 span{
+	float: left;
+	width: 15px;
+	height: 15px;
+	background: url(../img/ico-ben.png) no-repeat;
+	overflow: hidden;
+	margin: 11px 10px 0 62px;
+}
+.menu2 a{
+	font-size: 14px;
+	color: #333333;
+	float: left;
+	width: 127px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	  
+}
+.side{
+	width: 23px;
+	height: 92px;
+	overflow: hidden;
+	background: url(../img/side.png) no-repeat;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 235px;
+	margin-top: -46px;
+	z-index: 999;
+	cursor: pointer;
+}
+.side.se{
+	background: url(../img/side-se.png) no-repeat;
+	left: 0;
+}
+.content{
+	position: absolute;
+	top: 66px;
+	bottom: 0;
+	left: 262px;
+	right: 0;
+	overflow: hidden;
+}
+.content.se{
+	left: 25px;
+}
